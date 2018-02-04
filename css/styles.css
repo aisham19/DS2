@@ -19,9 +19,8 @@ footer {
   line-height: 1.25;
 }
 .spin {animation: spin 10s linear infinite}
-/* .spin-fast:hover {animation: spin 2s linear} */
 @keyframes spin {
-  100% {transform:rotate(360deg)}
+  100% {transform: rotate(360deg)}
 }
 .main-hr {width: 0}
 body {overflow-x: hidden}
